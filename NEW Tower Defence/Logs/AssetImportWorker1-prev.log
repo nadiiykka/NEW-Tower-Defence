@@ -15,7 +15,7 @@ C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52047
+53775
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,16 +59,16 @@ C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31988]  Target information:
+Player connection [13736]  Target information:
 
-Player connection [31988]  * "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 322120687 [EditorId] 322120687 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QBUU82K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13736]  * "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 398977456 [EditorId] 398977456 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QBUU82K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31988] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31988] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13736] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.3.0a15 (88af49042196)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Resources/UnitySubsystems
@@ -84,7 +84,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -98,41 +98,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003723 seconds.
-- Loaded All Assemblies, in  0.607 seconds
+Registered in 0.011125 seconds.
+- Loaded All Assemblies, in  2.056 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.568 seconds
-Domain Reload Profiling: 1172ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  2.212 seconds
+Domain Reload Profiling: 4267ms
+	BeginReloadAssembly (620ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (196ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (243ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (280ms)
+	LoadAllAssembliesAndSetupDomain (890ms)
+		LoadAssemblies (590ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (260ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (234ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (569ms)
+		AnalyzeDomain (886ms)
+			TypeCache.Refresh (872ms)
+				TypeCache.ScanAssembly (810ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2213ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (493ms)
+		SetupLoadedEditorAssemblies (1799ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (15ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (67ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (1115ms)
+			ProcessInitializeOnLoadMethodAttributes (481ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,440 +153,52 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Loaded All Assemblies, in  1.296 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+- Loaded All Assemblies, in  4.182 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.347 seconds
-Domain Reload Profiling: 2640ms
-	BeginReloadAssembly (506ms)
+- Finished resetting the current domain, in  4.123 seconds
+Domain Reload Profiling: 8300ms
+	BeginReloadAssembly (1708ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (649ms)
-		LoadAssemblies (512ms)
+		CreateAndSetChildDomain (231ms)
+	RebuildCommonClasses (246ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (266ms)
+	LoadAllAssembliesAndSetupDomain (1931ms)
+		LoadAssemblies (1662ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (166ms)
-			BuildScriptInfoCaches (84ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1348ms)
+		AnalyzeDomain (710ms)
+			TypeCache.Refresh (553ms)
+				TypeCache.ScanAssembly (525ms)
+			BuildScriptInfoCaches (98ms)
+			ResolveRequiredComponents (47ms)
+	FinalizeReload (4124ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1048ms)
+		SetupLoadedEditorAssemblies (3234ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (897ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (2895ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (51ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4159 unused Assets / (1.5 MB). Loaded Objects now: 4732.
-Memory consumption went from 259.7 MB to 258.2 MB.
-Total: 18.891100 ms (FindLiveObjects: 1.209000 ms CreateObjectMapping: 1.716900 ms MarkObjects: 11.683900 ms  DeleteObjects: 4.276900 ms)
+Unloading 4159 unused Assets / (1.4 MB). Loaded Objects now: 4732.
+Memory consumption went from 259.9 MB to 258.6 MB.
+Total: 9.272500 ms (FindLiveObjects: 1.036300 ms CreateObjectMapping: 1.039000 ms MarkObjects: 5.675300 ms  DeleteObjects: 1.518900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 389127.051079 seconds.
-  path: Assets/Pics/FieldsTileset.png
-  artifactKey: Guid(b9e3e66b72d3b4a448a5f6115f4b6d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/FieldsTileset.png using Guid(b9e3e66b72d3b4a448a5f6115f4b6d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbab3708cd217983ebe72063eba4aee1') in 0.6121594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
-
-========================================================================
-Received Import Request.
-  Time since last request: 1600.298252 seconds.
-  path: Assets/Pics/New Tile Palette.prefab
-  artifactKey: Guid(3e0647f459183684d97ca0ddcfcc7690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/New Tile Palette.prefab using Guid(3e0647f459183684d97ca0ddcfcc7690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '017c63bdd87c61b9c96740a3c3085eab') in 0.1031557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.416042 seconds.
-  path: Assets/Pics/FieldsTileset_2.asset
-  artifactKey: Guid(7fa97cbc981ae894396363d92bf479c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/FieldsTileset_2.asset using Guid(7fa97cbc981ae894396363d92bf479c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c20f0e3e8d1769fa8064d1e2c84e99c') in 0.0424888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 313.611693 seconds.
-  path: Assets/Pics/Map/FieldsTileset_1.asset
-  artifactKey: Guid(5454a841216cb274ab747998aa7b8c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_1.asset using Guid(5454a841216cb274ab747998aa7b8c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a126b888f5c47544dd15c3c1063d1c0') in 0.0101303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.112342 seconds.
-  path: Assets/Pics/Map/FieldsTileset_2.asset
-  artifactKey: Guid(be84a64570e6ba247928f756070873d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_2.asset using Guid(be84a64570e6ba247928f756070873d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf01f65b6df65c8992982030071b77b4') in 0.0528242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Pics/Map/FieldsTileset_6.asset
-  artifactKey: Guid(41e2455eb931fdf43ae35022603cd1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_6.asset using Guid(41e2455eb931fdf43ae35022603cd1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de81e8f0606789c0d049e0c94caec03c') in 0.0366422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pics/Map/FieldsTileset_17.asset
-  artifactKey: Guid(ab35d15833d81f646b9c988135b35cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_17.asset using Guid(ab35d15833d81f646b9c988135b35cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41d3782f4bad3a218ca6496c99f6025d') in 0.0240347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pics/Map/FieldsTileset_12.asset
-  artifactKey: Guid(a168732b0d210134889651d2ce534f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_12.asset using Guid(a168732b0d210134889651d2ce534f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82de2a7ad7303d2f8b42591d134d825c') in 0.0216092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Pics/Map/FieldsTileset_27.asset
-  artifactKey: Guid(e5c41352315f5fb479a108dfa8252038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_27.asset using Guid(e5c41352315f5fb479a108dfa8252038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99ef595057cfab02da3153079cb53d4') in 0.0270213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pics/Map/FieldsTileset_15.asset
-  artifactKey: Guid(ed77e9ba36fe4af4399576f1434be670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_15.asset using Guid(ed77e9ba36fe4af4399576f1434be670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d83a96c89e0b4667277fb5a1a74ac9') in 0.0246564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pics/Map/FieldsTileset_22.asset
-  artifactKey: Guid(3773920517bc2e647b6dd5fd65ad7d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_22.asset using Guid(3773920517bc2e647b6dd5fd65ad7d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be59fa0fdc0ba72b09b233ad11521125') in 0.0233147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pics/Map/FieldsTileset_11.asset
-  artifactKey: Guid(829eeb89e0b102f46a98b5fd2fbde45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_11.asset using Guid(829eeb89e0b102f46a98b5fd2fbde45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73f71714dfd24f0badab5bab1f34672c') in 0.02698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Pics/Map/FieldsTileset_8.asset
-  artifactKey: Guid(53713c8d23e971d4e8d577054be61997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_8.asset using Guid(53713c8d23e971d4e8d577054be61997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ea0c1b11989d6475172583b313bc169') in 0.0247679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Pics/Map/FieldsTileset_21.asset
-  artifactKey: Guid(4d6c3c65d41c2224eb588ad0503e392c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_21.asset using Guid(4d6c3c65d41c2224eb588ad0503e392c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28853f1c7836d2ebcbe698bd1a93dae7') in 0.0352709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pics/Map/FieldsTileset_16.asset
-  artifactKey: Guid(732499019a14ecf4b8ab8f70792dde8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_16.asset using Guid(732499019a14ecf4b8ab8f70792dde8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0fb72633149d394b4d6c89ada0d9936') in 0.0226104 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pics/Map/FieldsTileset_10.asset
-  artifactKey: Guid(d0dcf0eaff8b0c2429986d7a251384dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_10.asset using Guid(d0dcf0eaff8b0c2429986d7a251384dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '055d554245f236097677845b55b956a1') in 0.0254596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Pics/Map/FieldsTileset_19.asset
-  artifactKey: Guid(0d6dabd1ca270824ea89bf270d4bdee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_19.asset using Guid(0d6dabd1ca270824ea89bf270d4bdee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5f6ca0b350df3c93be53201f7a26e5') in 0.0276523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Pics/Map/FieldsTileset_24.asset
-  artifactKey: Guid(0b75c3705f5d1f94bb220ea83d28daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_24.asset using Guid(0b75c3705f5d1f94bb220ea83d28daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d3c1a1133b0c0b86045b9ab074f95a') in 0.0231152 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.007383 seconds.
-  path: Assets/Pics/Map/FieldsTileset_32.asset
-  artifactKey: Guid(810543499ed21684991470da61b43bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_32.asset using Guid(810543499ed21684991470da61b43bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6837218a1cfa3171365b0aeaabc753f2') in 0.0206537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pics/Map/FieldsTileset_36.asset
-  artifactKey: Guid(1a549ce1a78186e41a46efec3852e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_36.asset using Guid(1a549ce1a78186e41a46efec3852e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e9b3fcc24c3d98d05b632c2d014bea2') in 0.021503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pics/Map/FieldsTileset_37.asset
-  artifactKey: Guid(6ed068a73cf75004abfa7ddee91136da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_37.asset using Guid(6ed068a73cf75004abfa7ddee91136da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e24cca536900f1a9242f84bf7e936e40') in 0.0163324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Pics/Map/FieldsTileset_35.asset
-  artifactKey: Guid(c7b69f3de06a6ee4dbf76a16603fe1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_35.asset using Guid(c7b69f3de06a6ee4dbf76a16603fe1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ac4f77574e1b781777ba662e013deca') in 0.0166511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pics/Map/FieldsTileset_43.asset
-  artifactKey: Guid(f333942ac1bbf204ba2db7e36b08134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_43.asset using Guid(f333942ac1bbf204ba2db7e36b08134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d84bf354dd5bd64f732857361f454d') in 0.0171097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pics/Map/FieldsTileset_44.asset
-  artifactKey: Guid(eab17b1b31a59e64180b5e64fd3aa5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_44.asset using Guid(eab17b1b31a59e64180b5e64fd3aa5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7421eb43c1437e2ad83c6ded4e64cab0') in 0.0206621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pics/Map/FieldsTileset_55.asset
-  artifactKey: Guid(ca8f6e7bf06140c4abffbb2c90e4b066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_55.asset using Guid(ca8f6e7bf06140c4abffbb2c90e4b066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75885cb5021e251b6b7f0ff2cadf0743') in 0.0440382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pics/Map/FieldsTileset_51.asset
-  artifactKey: Guid(06f4882caae2cb04b93f5a14b9df5964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_51.asset using Guid(06f4882caae2cb04b93f5a14b9df5964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f7f334b0833fe05b39cdc640fa94b2e') in 0.0215704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Pics/Map/FieldsTileset_58.asset
-  artifactKey: Guid(5a23ba849889c9d4090367f5e5c2e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_58.asset using Guid(5a23ba849889c9d4090367f5e5c2e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70abd3b0c5449348f1b548b97452bee4') in 0.023053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Pics/Map/FieldsTileset_50.asset
-  artifactKey: Guid(3d5b41caaa07f0940b0e02dae577a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_50.asset using Guid(3d5b41caaa07f0940b0e02dae577a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b13608d74d80f9fc498574d97708759') in 0.0262144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pics/Map/FieldsTileset_57.asset
-  artifactKey: Guid(b34d403977891d04b989160cbb0d5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_57.asset using Guid(b34d403977891d04b989160cbb0d5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be3e769a8f26b5cd537f718477f4076') in 0.0213196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Pics/Map/FieldsTileset_34.asset
-  artifactKey: Guid(253160009b19f9b4ea8b1063d9112b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_34.asset using Guid(253160009b19f9b4ea8b1063d9112b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32a0809147b123e4e9f151e03ab77cb2') in 0.0175435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pics/Map/FieldsTileset_48.asset
-  artifactKey: Guid(f2510f5d83b386641ba451226f77615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_48.asset using Guid(f2510f5d83b386641ba451226f77615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5cf8316c829f63b0c8aab3f2637a306') in 0.0196266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pics/Map/FieldsTileset_41.asset
-  artifactKey: Guid(c37d1c198321f534aac0fb9de45063ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_41.asset using Guid(c37d1c198321f534aac0fb9de45063ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a61954fc2c82af65b920ef1084b42d1') in 0.0233923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.680933 seconds.
-  path: Assets/Pics/Map/FieldsTileset_62.asset
-  artifactKey: Guid(ba7787ac163fa4a419f3d92eda5af216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_62.asset using Guid(ba7787ac163fa4a419f3d92eda5af216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6727ac1d18d3cbb0c00602fc69db4e1d') in 0.0202795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pics/Map/FieldsTileset_63.asset
-  artifactKey: Guid(29175ab68bb58c64ebd46ee2e4059121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_63.asset using Guid(29175ab68bb58c64ebd46ee2e4059121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49201299cfc2f6483a4976fbcbaf593c') in 0.0207875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3794.073248 seconds.
-  path: Assets/Pics/Map/FieldsTileset_51.asset
-  artifactKey: Guid(06f4882caae2cb04b93f5a14b9df5964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_51.asset using Guid(06f4882caae2cb04b93f5a14b9df5964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7be47387bb7e34c85a659dfacf036c9') in 0.0046382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005367 seconds.
-  path: Assets/Pics/Map/FieldsTileset_52.asset
-  artifactKey: Guid(8f54a654b1413b847911b3d0d05ae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_52.asset using Guid(8f54a654b1413b847911b3d0d05ae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b0f94393696a259638c7177758ac25b') in 0.0035257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pics/Map/FieldsTileset_53.asset
-  artifactKey: Guid(3cbbba8dfef22bf4691b99be6c0fd807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_53.asset using Guid(3cbbba8dfef22bf4691b99be6c0fd807) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e231ac19cd3b2901243a5db58c2b2668') in 0.0037843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002587 seconds.
-  path: Assets/Pics/Map/FieldsTileset_57.asset
-  artifactKey: Guid(b34d403977891d04b989160cbb0d5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_57.asset using Guid(b34d403977891d04b989160cbb0d5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84361dc67a926c25850f01a01500dd9d') in 0.0034887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006251 seconds.
-  path: Assets/Pics/Map/FieldsTileset_60.asset
-  artifactKey: Guid(b8b66ee17ee3192448e845044b9dfa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_60.asset using Guid(b8b66ee17ee3192448e845044b9dfa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bfee9f6f288c8ecc05f68da8c6074b4') in 0.0034167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pics/Map/New Palette.prefab
-  artifactKey: Guid(5b85bc9b94fa05046b0a93f1ef3b0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/New Palette.prefab using Guid(5b85bc9b94fa05046b0a93f1ef3b0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b0f89387d65b0ddb993cf1c5e0eb6f') in 0.3457865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.446141 seconds.
-  path: Assets/Pics/Map/FieldsTileset_40.asset
-  artifactKey: Guid(d67e98aaa5b157e47bfae1346c35eb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_40.asset using Guid(d67e98aaa5b157e47bfae1346c35eb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f46875dc956130f3702f11947a577cb') in 0.0043845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004643 seconds.
-  path: Assets/Pics/Map/FieldsTileset_42.asset
-  artifactKey: Guid(b898aa3710641314bae98993722604b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_42.asset using Guid(b898aa3710641314bae98993722604b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02ab95be761d5ee69d9afb2b44e196b8') in 0.0046721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pics/Map/FieldsTileset_43.asset
-  artifactKey: Guid(f333942ac1bbf204ba2db7e36b08134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_43.asset using Guid(f333942ac1bbf204ba2db7e36b08134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '353abf31065cdef71f5757bba36ccf06') in 0.0038601 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Pics/Map/FieldsTileset_49.asset
-  artifactKey: Guid(2cd3b66ef96ee944b870cb562e1edfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_49.asset using Guid(2cd3b66ef96ee944b870cb562e1edfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb6789cd3ca1bef10ae783d1c48417f5') in 0.0042273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pics/Map/FieldsTileset_44.asset
-  artifactKey: Guid(eab17b1b31a59e64180b5e64fd3aa5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_44.asset using Guid(eab17b1b31a59e64180b5e64fd3aa5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4890ed241729db75f86a058c1e77809c') in 0.0033327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Pics/Map/FieldsTileset_47.asset
-  artifactKey: Guid(0fe2e269aedb1fb449ffaa2c411ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_47.asset using Guid(0fe2e269aedb1fb449ffaa2c411ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9dfb58450db9c202fc4fd012eb83e06') in 0.0048879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Pics/Map/FieldsTileset_46.asset
-  artifactKey: Guid(877a6631326f7b644bb162caf8edf39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_46.asset using Guid(877a6631326f7b644bb162caf8edf39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a534c58106afc8ad783f63175a3514ca') in 0.0034295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Pics/Map/FieldsTileset_45.asset
-  artifactKey: Guid(59863fb36da56e446850fd5aedafd344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_45.asset using Guid(59863fb36da56e446850fd5aedafd344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0620ea7fc238ace8394796f989d453e') in 0.0134089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/Pics/Map/FieldsTileset_48.asset
-  artifactKey: Guid(f2510f5d83b386641ba451226f77615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pics/Map/FieldsTileset_48.asset using Guid(f2510f5d83b386641ba451226f77615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b5b18d3bbb61619b51ace7e77375fc9') in 0.0200592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
