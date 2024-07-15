@@ -53,4 +53,12 @@ public class Manager : MonoBehaviour
             }
         }
     }
+
+    public void removeEnemyFromScreen()
+    {
+        if (enemiesOnScreen > 0)
+        {
+            enemiesOnScreen -= 1;
+        }
+    }
 }
