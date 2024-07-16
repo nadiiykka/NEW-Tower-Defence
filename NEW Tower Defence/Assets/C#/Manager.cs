@@ -15,6 +15,8 @@ public class Manager : MonoBehaviour
 
     int enemiesOnScreen = 0;
 
+    const float spawnDelay = 0.5f;
+
     void Awake()
     {
         if (instance == null)
@@ -30,15 +32,10 @@ public class Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Spawn();
+        StartCoroutine(Spawn());
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void Spawn()
+    
+    IEnumerator Spawn()
     {
         if (enemiesPerSpawn > 0 && enemiesOnScreen < totalEnemies)
         {
@@ -51,6 +48,8 @@ public class Manager : MonoBehaviour
                     enemiesOnScreen += 1;
                 }
             }
+            yield return new WaitForSeconds(spawnDelay);
+            StartCoroutine(Spawn());
         }
     }
 

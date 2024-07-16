@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FieldsTileset_50
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 789442300, guid: b9e3e66b72d3b4a448a5f6115f4b6d12, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.7764706, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
