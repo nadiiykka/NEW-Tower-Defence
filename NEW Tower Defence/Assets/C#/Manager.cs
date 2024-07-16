@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+public class Manager : Loader<Manager>
 {
-    public static Manager instance = null;
 
     public GameObject spawnPoint;
     public GameObject[] enemies;
@@ -17,18 +16,6 @@ public class Manager : MonoBehaviour
 
     const float spawnDelay = 0.5f;
 
-    void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-        DontDestroyOnLoad(gameObject);
-    }
     // Start is called before the first frame update
     void Start()
     {

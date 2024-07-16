@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
         }
         else if(collision.tag == "Finish")
         {
-            Manager.instance.removeEnemyFromScreen();
+            Manager.Instance.removeEnemyFromScreen();
             Destroy(gameObject);
         }
     }
