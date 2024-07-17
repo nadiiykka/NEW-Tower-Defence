@@ -1,6 +1,25 @@
 # Code Editor Package for Rider
 
 
+## [3.0.31] - 2024-06-17
+
+fix RIDER-104519 Rider is reporting errors in scripts that work fine in Unity when utilizing DOTS - when Player project, by generating projects for all assemblies in "com.unity.entities", "com.unity.collections"
+fix RIDER-111622 Unity Rider package is not compatible with Rider Dev builds
+
+
+## [3.0.28] - 2024-02-20
+
+- fix RIDER-103933 "PlayerSettings.suppressCommonWarnings" is not supported in Unity 2019.4.40f
+- fix https://github.com/JetBrains/resharper-unity/issues/2431 and [RIDER-104221](https://youtrack.jetbrains.com/issue/RIDER-104221)
+
+
+## [3.0.27] - 2023-11-30
+
+- Restore the ability to select Rider installation from the custom location
+- Fix possible extra project regeneration on moving focus from Rider to Unity
+- Improve performance of code generation for very large projects
+
+
 ## [3.0.26] - 2023-10-04
 
  - https://github.com/JetBrains/resharper-unity/issues/2421

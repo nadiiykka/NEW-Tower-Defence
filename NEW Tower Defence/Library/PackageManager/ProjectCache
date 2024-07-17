@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638561527586875569
-    m_Hash: 3913595523
+      ticks: 638568539755933279
+    m_Hash: 1845493546
   m_LockFileStatus:
     m_FilePath: C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638561527586964812
-    m_Hash: 1562174804
+      ticks: 638568539756046252
+    m_Hash: 2029966095
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -316,10 +316,10 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: fb3072e34f70a16fbff938620d39c1dab76c4179
-- packageId: com.unity.ide.rider@3.0.26
+- packageId: com.unity.ide.rider@3.0.31
   testable: 0
   isDirectDependency: 1
-  version: 3.0.26
+  version: 3.0.31
   source: 1
   resolvedPath: C:\Users\admin\Documents\GitHub\NEW-Tower-Defence\NEW Tower Defence\Library\PackageCache\com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
@@ -406,13 +406,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061920000000
+  datePublishedTicks: 638548308080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 2b29b1152946c13d1ecebf6fc681a59cd8b4d399
+    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
     path: 
   unityLifecycle:
     version: 3.0.26
@@ -425,11 +425,13 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- https://github.com/JetBrains/resharper-unity/issues/2421\n-
-    https://github.com/JetBrains/resharper-unity/issues/2422"}'
+  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
+    that work fine in Unity when utilizing DOTS - when Player project, by generating
+    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
+    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
   assetStore:
     productId: 
-  fingerprint: 69dbf8aa2cac2d143ced0023ac7cf441bce36f47
+  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
@@ -674,10 +676,10 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: 1f7ffc2347eb2aa93ce9423198c19665e09b3424
-- packageId: com.unity.timeline@1.8.6
+- packageId: com.unity.timeline@1.8.7
   testable: 0
   isDirectDependency: 1
-  version: 1.8.6
+  version: 1.8.7
   source: 1
   resolvedPath: C:\Users\admin\Documents\GitHub\NEW-Tower-Defence\NEW Tower Defence\Library\PackageCache\com.unity.timeline
   assetPath: Packages/com.unity.timeline
@@ -821,13 +823,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326112870000000
+  datePublishedTicks: 638524833900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 9b8cc7590b7d733181284f1a846a02406b5524d8
+    revision: d6432ca638481c3d0e4c01f87f9cdbe3c4b1d529
     path: 
   unityLifecycle:
     version: 1.8.6
@@ -840,17 +842,20 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n\n- In the `Create Asset` menu, the `Signal`
-    and `Timeline` items have been moved to the `Timeline` submenu.\n\n### Fixed\n\n-
-    Fixed issue where changing the name of a group track was not undoable ([TB-218](https://issuetracker.unity3d.com/issues/timeline-track-group-renaming-doesnt-go-into-the-undo-history)).\n-
-    Fixed issue where a warning would be logged in the console for `TrackAsset` ([TB-229](https://issuetracker.unity3d.com/product/unity/issues/guid/TB-229)).\n-
-    Fixed performance regression when rebuilding the playable graph.\n- Fixed a `MissingReferenceException`
-    when editing a Timeline that is an instance of a prefab and a bound `Animator`
-    is destroyed ([TB-222](https://issuetracker.unity3d.com/issues/timeline-missingreferenceexceptions-when-undoing-add-animator-from-timeline))\n-
-    Removed warnings due to obsolete analytics API."}'
+  upmReserved: '{"changelog":"### Added\n\n- Released ronl-workflow-custom-marker.md
+    Added a new workflow to the Timeline Workflows documentation:\n- Released ronl-workflow-custom-marker.md
+    The `Create a custom Notes marker` workflow demonstrates how to create a custom
+    marker for adding notes to Timeline instances. This workflow also demonstrates
+    how to change the default appearance of a custom marker with scripting and a
+    Unity Style Sheet (USS).\n\n### Fixed\n\n- Fixed bug where using , and . (<>)
+    to step frames in the Animation Window while the Timeline Window was linked would
+    sometimes not work. [IN-56667](https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-56667)\n-
+    When the Timeline and Animation windows are linked and the Timeline Window is
+    active, moving the playhead in the Timeline Window will cause the animation window
+    to repaint immediately."}'
   assetStore:
     productId: 
-  fingerprint: 9ac0df085fa85d0d1f0b83dd933674497fd2774e
+  fingerprint: c58b4ee65782ad38338e29f7ee67787cb6998f04
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
@@ -4070,6 +4075,7 @@ m_ResolvedPackages:
     - 9.0.1
     - 9.0.2
     - 9.0.3
+    - 9.0.4
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4561,6 +4567,7 @@ m_ResolvedPackages:
     - 8.0.0
     - 8.0.1
     - 8.0.2
+    - 8.0.3
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0

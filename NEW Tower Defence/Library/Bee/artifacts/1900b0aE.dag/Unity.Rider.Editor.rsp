@@ -413,6 +413,7 @@
 "Library/PackageCache/com.unity.ide.rider/Rider/Editor/Util/RiderMenu.cs"
 "Library/PackageCache/com.unity.ide.rider/Rider/Editor/Util/RiderPathUtil.cs"
 "Library/PackageCache/com.unity.ide.rider/Rider/Editor/Util/SerializableVersion.cs"
+"Library/PackageCache/com.unity.ide.rider/Rider/Editor/Util/StringBuilderExtensions.cs"
 "Library/PackageCache/com.unity.ide.rider/Rider/Editor/Util/StringUtils.cs"
 -langversion:9.0
 
