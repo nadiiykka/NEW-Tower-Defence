@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int target = 0;
-    public Transform exit;
-    public Transform[] wayPoints;
-    public float navigation;
+    [SerializeField]
+    Transform exit;
+    [SerializeField]
+    Transform[] wayPoints;
+    [SerializeField]
+    float navigation;
 
+    int target = 0;
     Transform enemy;
     float navigationTime = 0;
 
