@@ -6,6 +6,8 @@ TagManager:
   tags:
   - MovePoint
   - Enemy
+  - TowerSide
+  - Ground
   layers:
   - Default
   - TransparentFX

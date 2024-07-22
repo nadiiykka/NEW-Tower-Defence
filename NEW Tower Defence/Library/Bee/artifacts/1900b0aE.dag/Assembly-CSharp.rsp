@@ -415,6 +415,8 @@
 "Assets/C#/Loader.cs"
 "Assets/C#/Manager.cs"
 "Assets/C#/MenuManager.cs"
+"Assets/C#/TowerBTN.cs"
+"Assets/C#/TowerManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
