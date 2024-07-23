@@ -27,7 +27,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6877522782072769060}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -120,7 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6948160432720038175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TowerManager, Assembly-CSharp
+        m_MethodName: SelectedTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3997252753400190194}
+          m_ObjectArgumentAssemblyTypeName: TowerBTN, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3997252753400190194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,3 +146,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerObject: {fileID: 3641776406170848154, guid: 76b174e3dc436c04db03e3693cc2a9a3, type: 3}
+  dragSprite: {fileID: 7028616704906629411, guid: 0931f2ab0a7f1564081ee2756cebbb3d, type: 3}

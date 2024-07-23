@@ -8,10 +8,12 @@ public class TowerManager : MonoBehaviour
 {
     TowerBTN towerBTNPressed;
 
+    SpriteRenderer spriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,16 @@ public class TowerManager : MonoBehaviour
             UnityEngine.Vector2 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(mousePoint, UnityEngine.Vector2.zero);
 
-            PlaceTower(hit);
+            if (hit.collider.tag == "TowerSide")
+            {
+                hit.collider.tag = "TowerSideFull";
+                PlaceTower(hit);
+            }
+        }
+
+        if (spriteRenderer.enabled)
+        {
+            FollowMouse();
         }
     }
     public void PlaceTower(RaycastHit2D hit)
@@ -31,11 +42,27 @@ public class TowerManager : MonoBehaviour
         {
             GameObject newTower = Instantiate(towerBTNPressed.TowerObject);
             newTower.transform.position = hit.transform.position;
+            DisabledDrag();
         }
     }
     public void SelectedTower(TowerBTN towerSelected)
     {
         towerBTNPressed = towerSelected;
+        EnabledDrag(towerBTNPressed.DragSprite);
         Debug.Log("Pressed" + towerBTNPressed.gameObject);
+    }
+    public void FollowMouse()
+    {
+        transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = new UnityEngine.Vector2(transform.position.x, transform.position.y);
+    }
+    public void EnabledDrag(Sprite sprite)
+    {
+        spriteRenderer.enabled = true;
+        spriteRenderer.sprite = sprite;
+    }
+    public void DisabledDrag()
+    {
+        spriteRenderer.enabled = false;
     }
 }

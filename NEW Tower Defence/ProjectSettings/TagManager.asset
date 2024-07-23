@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - TowerSide
   - Ground
+  - TowerSideFull
   layers:
   - Default
   - TransparentFX
