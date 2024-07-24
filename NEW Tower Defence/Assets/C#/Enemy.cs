@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         enemy = GetComponent<Transform>();
+        Manager.Instance.RegisterEnemy(this);
     }
 
     // Update is called once per frame
@@ -47,8 +48,7 @@ public class Enemy : MonoBehaviour
         }
         else if(collision.tag == "Finish")
         {
-            Manager.Instance.removeEnemyFromScreen();
-            Destroy(gameObject);
+            Manager.Instance.UnregisterEnemy(this);
         }
     }
 }
