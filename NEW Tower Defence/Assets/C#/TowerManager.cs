@@ -43,8 +43,15 @@ public class TowerManager : MonoBehaviour
             GameObject newTower = Instantiate(towerBTNPressed.TowerObject);
             newTower.transform.position = hit.transform.position;
             DisabledDrag();
+
+            SpriteRenderer hitSpriteRenderer = hit.collider.GetComponent<SpriteRenderer>();
+            if (hitSpriteRenderer != null)
+            {
+                hitSpriteRenderer.enabled = false;
+            }
         }
     }
+
     public void SelectedTower(TowerBTN towerSelected)
     {
         towerBTNPressed = towerSelected;
