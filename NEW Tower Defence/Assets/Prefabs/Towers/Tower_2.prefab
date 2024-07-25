@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7009851397864668993}
   - component: {fileID: 149845662316210837}
   - component: {fileID: 6886362615770578772}
+  - component: {fileID: 7367229097956455652}
   m_Layer: 0
   m_Name: Tower_2
   m_TagString: Untagged
@@ -109,3 +110,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7367229097956455652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3641776406170848154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a36fc26e1546c34fb3c4bfe40aa3a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAttacks: 2
+  attackRadius: 4
+  projectile: {fileID: 2795833639584421524, guid: 51f2494f914c0664983e903b55f9bf7f, type: 3}
