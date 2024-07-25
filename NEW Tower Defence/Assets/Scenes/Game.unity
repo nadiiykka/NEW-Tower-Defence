@@ -6909,33 +6909,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2277443616825818556, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
-      propertyPath: m_Size.x
-      value: 1.0890713
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277443616825818556, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
-      propertyPath: m_Size.y
-      value: 0.92874193
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277443616825818556, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.044535637
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277443616825818556, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.035629034
-      objectReference: {fileID: 0}
     - target: {fileID: 4558899903017248908, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
       propertyPath: m_Name
       value: Finish
       objectReference: {fileID: 0}
-    - target: {fileID: 4558899903017248908, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7671189181224508374, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.48
+      value: 10.08
       objectReference: {fileID: 0}
     - target: {fileID: 7671189181224508374, guid: 2da7d98c344007744b687343ebe39e37, type: 3}
       propertyPath: m_LocalPosition.y
