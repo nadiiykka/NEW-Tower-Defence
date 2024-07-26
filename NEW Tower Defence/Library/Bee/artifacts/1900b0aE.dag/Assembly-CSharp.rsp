@@ -410,6 +410,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/C#/ChickenScript.cs"
 "Assets/C#/CutSceneManager.cs"
 "Assets/C#/Enemy.cs"
 "Assets/C#/Loader.cs"

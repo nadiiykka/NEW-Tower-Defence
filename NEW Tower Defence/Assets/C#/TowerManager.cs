@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class TowerManager : MonoBehaviour
 {
     TowerBTN towerBTNPressed;
-
     SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer == null)
+        {
+            Debug.LogError("SpriteRenderer is missing on TowerManager object.");
+        }
     }
 
     // Update is called once per frame
@@ -24,18 +26,19 @@ public class TowerManager : MonoBehaviour
             UnityEngine.Vector2 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(mousePoint, UnityEngine.Vector2.zero);
 
-            if (hit.collider.tag == "TowerSide")
+            if (hit.collider != null && hit.collider.CompareTag("TowerSide"))
             {
                 hit.collider.tag = "TowerSideFull";
                 PlaceTower(hit);
             }
         }
 
-        if (spriteRenderer.enabled)
+        if (spriteRenderer != null && spriteRenderer.enabled)
         {
             FollowMouse();
         }
     }
+
     public void PlaceTower(RaycastHit2D hit)
     {
         if (!EventSystem.current.IsPointerOverGameObject() && towerBTNPressed != null)
@@ -55,21 +58,36 @@ public class TowerManager : MonoBehaviour
     public void SelectedTower(TowerBTN towerSelected)
     {
         towerBTNPressed = towerSelected;
-        EnabledDrag(towerBTNPressed.DragSprite);
-        Debug.Log("Pressed" + towerBTNPressed.gameObject);
+        if (towerBTNPressed != null)
+        {
+            EnabledDrag(towerBTNPressed.DragSprite);
+            Debug.Log("Pressed" + towerBTNPressed.gameObject);
+        }
     }
+
     public void FollowMouse()
     {
-        transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new UnityEngine.Vector2(transform.position.x, transform.position.y);
+        if (spriteRenderer != null)
+        {
+            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = new UnityEngine.Vector2(transform.position.x, transform.position.y);
+        }
     }
+
     public void EnabledDrag(Sprite sprite)
     {
-        spriteRenderer.enabled = true;
-        spriteRenderer.sprite = sprite;
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = true;
+            spriteRenderer.sprite = sprite;
+        }
     }
+
     public void DisabledDrag()
     {
-        spriteRenderer.enabled = false;
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = false;
+        }
     }
 }
