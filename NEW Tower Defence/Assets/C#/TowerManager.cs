@@ -5,8 +5,26 @@ using UnityEngine;
 
 public class TowerManager : MonoBehaviour
 {
-    TowerBTN towerBTNPressed;
+    public TowerBTN towerBTNPressed { get; set; }
     SpriteRenderer spriteRenderer;
+
+    private static TowerManager instance;
+    public static TowerManager Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<TowerManager>();
+                if (instance == null)
+                {
+                    GameObject obj = new GameObject("TowerManager");
+                    instance = obj.AddComponent<TowerManager>();
+                }
+            }
+            return instance;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()

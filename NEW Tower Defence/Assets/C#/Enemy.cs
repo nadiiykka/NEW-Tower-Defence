@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     float navigation;
     [SerializeField]
     int health;
+    [SerializeField]
+    int rewardAmount;
 
     int target = 0;
     Transform enemy;

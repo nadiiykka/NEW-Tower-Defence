@@ -150,8 +150,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -360,3 +360,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerObject: {fileID: 3641776406170848154, guid: 76b174e3dc436c04db03e3693cc2a9a3, type: 3}
   dragSprite: {fileID: 7028616704906629411, guid: 0931f2ab0a7f1564081ee2756cebbb3d, type: 3}
+  towerPrice: 10

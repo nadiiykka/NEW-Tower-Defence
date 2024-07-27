@@ -1862,6 +1862,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2196829787949777013, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+      propertyPath: playBtn
+      value: 
+      objectReference: {fileID: 748549469}
+    - target: {fileID: 2196829787949777013, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+      propertyPath: currentWave
+      value: 
+      objectReference: {fileID: 802243583}
+    - target: {fileID: 2196829787949777013, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+      propertyPath: playBtnLabel
+      value: 
+      objectReference: {fileID: 885634109}
+    - target: {fileID: 2196829787949777013, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+      propertyPath: totalMoneyLabel
+      value: 
+      objectReference: {fileID: 1082373171}
+    - target: {fileID: 2196829787949777013, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+      propertyPath: totalEscapedLabel
+      value: 
+      objectReference: {fileID: 2122825957}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3346,22 +3366,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2828563317343470501}
-    - target: {fileID: 4503101151193310132, guid: 7a0aebf278aa1e34598467031a433641, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503101151193310132, guid: 7a0aebf278aa1e34598467031a433641, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503101151193310132, guid: 7a0aebf278aa1e34598467031a433641, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503101151193310132, guid: 7a0aebf278aa1e34598467031a433641, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278190080
-      objectReference: {fileID: 0}
     - target: {fileID: 4995947150568012911, guid: 7a0aebf278aa1e34598467031a433641, type: 3}
       propertyPath: m_Name
       value: First
@@ -3548,22 +3552,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2828563317343470501}
-    - target: {fileID: 4257173022664308007, guid: 8844878f0cd9e68469042ab4dd01c138, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257173022664308007, guid: 8844878f0cd9e68469042ab4dd01c138, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257173022664308007, guid: 8844878f0cd9e68469042ab4dd01c138, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257173022664308007, guid: 8844878f0cd9e68469042ab4dd01c138, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278190080
-      objectReference: {fileID: 0}
     - target: {fileID: 6877522782072769060, guid: 8844878f0cd9e68469042ab4dd01c138, type: 3}
       propertyPath: m_Name
       value: Second
@@ -4885,22 +4873,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1465516482}
     m_Modifications:
-    - target: {fileID: 1060942267367079684, guid: fce7a267e06a68643afd9ca2840dacfe, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1060942267367079684, guid: fce7a267e06a68643afd9ca2840dacfe, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1060942267367079684, guid: fce7a267e06a68643afd9ca2840dacfe, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1060942267367079684, guid: fce7a267e06a68643afd9ca2840dacfe, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278190080
-      objectReference: {fileID: 0}
     - target: {fileID: 1642309958696820104, guid: fce7a267e06a68643afd9ca2840dacfe, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
