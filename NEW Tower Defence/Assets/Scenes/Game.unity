@@ -778,7 +778,7 @@ Transform:
   m_GameObject: {fileID: 616429700}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.01, y: 186.17, z: -3180.5828}
+  m_LocalPosition: {x: 32.01, y: 191, z: -3180.5828}
   m_LocalScale: {x: 45.940216, y: 23.881605, z: 17.080702}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -933,7 +933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.32, y: 135.1}
+  m_AnchoredPosition: {x: 30.7, y: 135.1}
   m_SizeDelta: {x: 163.99, y: 39.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748549469
@@ -979,7 +979,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 748549470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1121933273}
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: PlayButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &748549470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1887,6 +1899,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+--- !u!114 &1121933273 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2196829787949777013, guid: 3aab999248f6a5a4f8d0665dc959841c, type: 3}
+  m_PrefabInstance: {fileID: 1121933272}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99cc28aa2b4a7ab49b0643b6c3630f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1126497888
 GameObject:
   m_ObjectHideFlags: 0
