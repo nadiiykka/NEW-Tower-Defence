@@ -1,0 +1,1140 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '2023.3.0a15 (88af49042196) revision 8957769'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'uk' Physical Memory: 15722 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.3.0a15\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+50472
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence
+C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25000]  Target information:
+
+Player connection [25000]  * "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 4267215263 [EditorId] 4267215263 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QBUU82K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25000] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25000] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 5.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.3.0a15 (88af49042196)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/NEW Tower Defence/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7861 MB
+    Driver:   27.20.14016.13
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.3.0a15/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010483 seconds.
+- Loaded All Assemblies, in  1.447 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 2428ms
+	BeginReloadAssembly (501ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (140ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (181ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (550ms)
+			TypeCache.Refresh (546ms)
+				TypeCache.ScanAssembly (507ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (828ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (597ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  2.282 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.210 seconds
+Domain Reload Profiling: 4486ms
+	BeginReloadAssembly (904ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (1125ms)
+		LoadAssemblies (864ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (554ms)
+			TypeCache.Refresh (411ms)
+				TypeCache.ScanAssembly (374ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2212ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1682ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (1455ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4168 unused Assets / (1.7 MB). Loaded Objects now: 4742.
+Memory consumption went from 259.8 MB to 258.2 MB.
+Total: 19.535700 ms (FindLiveObjects: 1.343900 ms CreateObjectMapping: 1.071400 ms MarkObjects: 13.182800 ms  DeleteObjects: 3.934900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119775.848329 seconds.
+  path: Assets/Pics/Map Palette/Grass_35.asset
+  artifactKey: Guid(8d8da31767ceb864a9668b8675220bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_35.asset using Guid(8d8da31767ceb864a9668b8675220bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07918f6fe6cebf2ceb72a937f37b3dbb') in 0.2211476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pics/Map Palette/Grass_18.asset
+  artifactKey: Guid(7c20bcf1ceeef8c4baeae1dc243a9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_18.asset using Guid(7c20bcf1ceeef8c4baeae1dc243a9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '695cd59a839f383325e8bfcc40afcd50') in 0.0226291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_13.asset
+  artifactKey: Guid(17ac321cf8c3907478fbfe57d87d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_13.asset using Guid(17ac321cf8c3907478fbfe57d87d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40b9ff055b5782dd686612abd9c72d5b') in 0.0290978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pics/Map Palette/Grass_17.asset
+  artifactKey: Guid(99103eaf76c1c9342afef4fe51283e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_17.asset using Guid(99103eaf76c1c9342afef4fe51283e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33c67f630be5c96237f20b6907febb53') in 0.0246012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pics/Map Palette/Grass_38.asset
+  artifactKey: Guid(da167c4149058bc44b6d62f100ef21e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_38.asset using Guid(da167c4149058bc44b6d62f100ef21e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c194efc43fa4fc806f8c6488e7f73bd') in 0.0234627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pics/Map Palette/Grass_6.asset
+  artifactKey: Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_6.asset using Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3afe23f8240c5d46443010697d859bd7') in 0.021372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pics/Map Palette/Grass_9.asset
+  artifactKey: Guid(4d162ce0a6dd94a4099159bcd283d6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_9.asset using Guid(4d162ce0a6dd94a4099159bcd283d6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e803d36921a26da40407d632b71f067d') in 0.0226738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pics/Map Palette/Grass_1.asset
+  artifactKey: Guid(087b843c4a8d764449eb93801468c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_1.asset using Guid(087b843c4a8d764449eb93801468c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d1207a1074b903f1318411c159b9a32') in 0.0221857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pics/Map Palette/Grass_0.asset
+  artifactKey: Guid(96d32d5da32e46f40933c9bb34d5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_0.asset using Guid(96d32d5da32e46f40933c9bb34d5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd67f5b836492bf27d9eab304643217') in 0.0226767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_31.asset
+  artifactKey: Guid(4f189d9305a1fd343afffeb3e6983225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_31.asset using Guid(4f189d9305a1fd343afffeb3e6983225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59fec0b6be1daae5f05c06f55ebb7e15') in 0.0229226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_8.asset
+  artifactKey: Guid(9f6b5e508e5ada845aa55599bcd175c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_8.asset using Guid(9f6b5e508e5ada845aa55599bcd175c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb1f41be777c7dbfa1dc95baf738a49d') in 0.0214877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.195066 seconds.
+  path: Assets/Pics/Map Palette/Grass_1.asset
+  artifactKey: Guid(087b843c4a8d764449eb93801468c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_1.asset using Guid(087b843c4a8d764449eb93801468c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd07883f69d4f66acc2c57b138778ee8f') in 0.0172381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Pics/Map Palette/Grass_6.asset
+  artifactKey: Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_6.asset using Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b14078277090485fec7ee355474d24') in 0.0145414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pics/Map Palette/Grass_22.asset
+  artifactKey: Guid(d15a1f57fdbc3614ca085a003c567650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_22.asset using Guid(d15a1f57fdbc3614ca085a003c567650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1a04423352b7e2d64b4849edc79e3fa') in 0.026553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pics/Map Palette/Grass_30.asset
+  artifactKey: Guid(21c270c59aa266a48b040f9a6f745014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_30.asset using Guid(21c270c59aa266a48b040f9a6f745014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa73c36767554e1f638777c8aa950ea8') in 0.0192032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Pics/Map Palette/Grass_32.asset
+  artifactKey: Guid(f44eabe603d9c854185e2bee32f2fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_32.asset using Guid(f44eabe603d9c854185e2bee32f2fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0091099945dae50c74f31fcc1dd381d5') in 0.0130756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pics/Map Palette/Grass_3.asset
+  artifactKey: Guid(b300831b81db0814598695350eb58c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_3.asset using Guid(b300831b81db0814598695350eb58c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764d7c6e475e9c94af502a48f295d292') in 0.028628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pics/Map Palette/Grass_9.asset
+  artifactKey: Guid(4d162ce0a6dd94a4099159bcd283d6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_9.asset using Guid(4d162ce0a6dd94a4099159bcd283d6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a0b1e5fc7dedd8b66fc3355d73c3816') in 0.01951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pics/Map Palette/Grass_5.asset
+  artifactKey: Guid(6a82ae3af071c5b47a6a57e24ef973ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_5.asset using Guid(6a82ae3af071c5b47a6a57e24ef973ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45b2f2383ba2475c3d827c02472e1b32') in 0.0120707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pics/Map Palette/Grass_18.asset
+  artifactKey: Guid(7c20bcf1ceeef8c4baeae1dc243a9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_18.asset using Guid(7c20bcf1ceeef8c4baeae1dc243a9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde4027ae5d59590e9e899b5d9892a5e') in 0.0126772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pics/Map Palette/Grass_34.asset
+  artifactKey: Guid(c244f2c28bb292944b4239073a3d71d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_34.asset using Guid(c244f2c28bb292944b4239073a3d71d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8fbc191cba529c392e05bc1fc53f380') in 0.0130052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pics/Map Palette/Grass_15.asset
+  artifactKey: Guid(e723b378da0fd6144a68e9138b3df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_15.asset using Guid(e723b378da0fd6144a68e9138b3df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d5d74cd796bc187630516c055a002c') in 0.0139166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Pics/Map Palette/Grass_13.asset
+  artifactKey: Guid(17ac321cf8c3907478fbfe57d87d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_13.asset using Guid(17ac321cf8c3907478fbfe57d87d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '460f93ecf3cd236eec3338849e383a6f') in 0.0117141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Pics/Map Palette/Grass_21.asset
+  artifactKey: Guid(77aed080e4435ff4d87330c5137eccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_21.asset using Guid(77aed080e4435ff4d87330c5137eccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67b8fae4b9c6ceb805a57bebe159d9d') in 0.0113951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pics/Map Palette/Grass_25.asset
+  artifactKey: Guid(836f23c2ab1792247a75f6aff5a0a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_25.asset using Guid(836f23c2ab1792247a75f6aff5a0a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cca480156f89b4cb8c9ebc15a4df2b4') in 0.0109919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pics/Map Palette/Grass_38.asset
+  artifactKey: Guid(da167c4149058bc44b6d62f100ef21e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_38.asset using Guid(da167c4149058bc44b6d62f100ef21e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5416e999db8018cc3f710ee1e83d5b26') in 0.0105681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pics/Map Palette/Grass_41.asset
+  artifactKey: Guid(43c8e61610a52ff429facbfb104dd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_41.asset using Guid(43c8e61610a52ff429facbfb104dd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '477d5115145d1a86d9e372c8bd3c4511') in 0.0120785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pics/Map Palette/Grass_36.asset
+  artifactKey: Guid(c0cc4adf052e4224a8be883283b62f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_36.asset using Guid(c0cc4adf052e4224a8be883283b62f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad0a9c46a47e115f8e22e354e4c8bf4') in 0.0141046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pics/Map Palette/Grass_10.asset
+  artifactKey: Guid(2e40a81df7ec2364c819f9deef3864df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_10.asset using Guid(2e40a81df7ec2364c819f9deef3864df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fb663d0a7336fe843e4076cccd40d96') in 0.0136644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pics/Map Palette/Grass_33.asset
+  artifactKey: Guid(422d728e73ac4ce4c9e479a63550f317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_33.asset using Guid(422d728e73ac4ce4c9e479a63550f317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f9e357f4e0d2890d4bf506ad29b1bf') in 0.0131515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pics/Map Palette/Grass_11.asset
+  artifactKey: Guid(d45034ed6196c4e45bd5e8f5f77ef652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_11.asset using Guid(d45034ed6196c4e45bd5e8f5f77ef652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38727e33dd03c0bd2b58cbbd53d632c3') in 0.0203241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_28.asset
+  artifactKey: Guid(88508d0bf03a06545abe7ddbb6aa1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_28.asset using Guid(88508d0bf03a06545abe7ddbb6aa1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37890c6b429f83e3ed9d9d8a1ca749f5') in 0.0112979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pics/Map Palette/Grass_31.asset
+  artifactKey: Guid(4f189d9305a1fd343afffeb3e6983225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_31.asset using Guid(4f189d9305a1fd343afffeb3e6983225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a82ea8f19a0a03646beaed6495b58b93') in 0.0116779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pics/Map Palette/Grass_40.asset
+  artifactKey: Guid(691f69bb6dafbeb4ba62da8625c9daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_40.asset using Guid(691f69bb6dafbeb4ba62da8625c9daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b7afa95531f4b443c2380b351ca1790') in 0.0120247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509094 seconds.
+  path: Assets/Pics/Map Palette/Grass_46.asset
+  artifactKey: Guid(9b2ea75f35f021c4495cef0e93b60421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_46.asset using Guid(9b2ea75f35f021c4495cef0e93b60421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '776326187f395a298e219bf7a5b12cb0') in 0.0188022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pics/Map Palette/Grass_51.asset
+  artifactKey: Guid(2f9234e743bd36e4ab99782c1d64321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_51.asset using Guid(2f9234e743bd36e4ab99782c1d64321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aba036647f051691c186b2ec225a839') in 0.0117673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pics/Map Palette/Grass_57.asset
+  artifactKey: Guid(99fba75f100da3c4eb764df5e2cb67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_57.asset using Guid(99fba75f100da3c4eb764df5e2cb67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f2893c85477469b9b6c86e7cf0263f7') in 0.0116008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pics/Map Palette/Grass_60.asset
+  artifactKey: Guid(044460c81c3b4854aac41a9b0bdc0190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_60.asset using Guid(044460c81c3b4854aac41a9b0bdc0190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2b760c884c37e2d317848b136ea3588') in 0.0115541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_59.asset
+  artifactKey: Guid(e06a966661fd98d4087e42b72107fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_59.asset using Guid(e06a966661fd98d4087e42b72107fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f8f1f958f38ffd187826431998e665e') in 0.0098656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pics/Map Palette/Grass_62.asset
+  artifactKey: Guid(23299157b3bada947aa27a84fcd550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_62.asset using Guid(23299157b3bada947aa27a84fcd550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c309c7e4bc8afd21974769a858d60ca9') in 0.0132576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pics/Map Palette/Grass_70.asset
+  artifactKey: Guid(2c4f36fc90b584b4c81935a48c2c5732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_70.asset using Guid(2c4f36fc90b584b4c81935a48c2c5732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af8424f0ba7a5c98ea8977a628f24853') in 0.0128286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pics/Map Palette/Grass_61.asset
+  artifactKey: Guid(2d177b0efe2552b4a94952233b737990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_61.asset using Guid(2d177b0efe2552b4a94952233b737990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a452d35c8c279e0e60f8ff0a729f4f24') in 0.0113254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pics/Map Palette/Grass_55.asset
+  artifactKey: Guid(ff080594921b7144d8d84d5414fcf8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_55.asset using Guid(ff080594921b7144d8d84d5414fcf8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '545f111653610288ea562d04d18bd1b6') in 0.0126033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pics/Map Palette/Grass_67.asset
+  artifactKey: Guid(7b052eb31b013aa45bc39268a3e1b09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_67.asset using Guid(7b052eb31b013aa45bc39268a3e1b09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b71c7eebc340c45e357bac493d6b7cc') in 0.0114755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Pics/Map Palette/Grass_54.asset
+  artifactKey: Guid(137577441ad7bed4aaa28151dee2dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_54.asset using Guid(137577441ad7bed4aaa28151dee2dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9170477c6a56f77d39abfbeb2dac47') in 0.010312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Pics/Map Palette/New Tile Palette.prefab
+  artifactKey: Guid(bd4b5b4790d1f854c85ae4e08f4bba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/New Tile Palette.prefab using Guid(bd4b5b4790d1f854c85ae4e08f4bba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78bb2a0c7cba33321164353a861f2274') in 0.1778377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.178949 seconds.
+  path: Assets/Pics/Map Palette/Grass_45.asset
+  artifactKey: Guid(08bb85a6a5877554f8f5992850440b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_45.asset using Guid(08bb85a6a5877554f8f5992850440b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '117947a0c5321aa214620fe5a7beb52c') in 0.0107673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005252 seconds.
+  path: Assets/Pics/Map Palette/Grass_47.asset
+  artifactKey: Guid(65da97b592b559f4895077ae866c70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_47.asset using Guid(65da97b592b559f4895077ae866c70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3633c9da87f0b291b305d9cd31699ba9') in 0.0138388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pics/Map Palette/Grass_51.asset
+  artifactKey: Guid(2f9234e743bd36e4ab99782c1d64321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_51.asset using Guid(2f9234e743bd36e4ab99782c1d64321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da76516ee02afc885f528ca536243692') in 0.0248079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Pics/Map Palette/Grass_63.asset
+  artifactKey: Guid(a7f5325d6b032e34c9e63ba3d5c45798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_63.asset using Guid(a7f5325d6b032e34c9e63ba3d5c45798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f360ae0789213c3e0e578f19451bec80') in 0.0129096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Pics/Map Palette/Grass_46.asset
+  artifactKey: Guid(9b2ea75f35f021c4495cef0e93b60421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_46.asset using Guid(9b2ea75f35f021c4495cef0e93b60421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83d791ed14e5d1c590476e7a402e3bac') in 0.0235522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_59.asset
+  artifactKey: Guid(e06a966661fd98d4087e42b72107fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_59.asset using Guid(e06a966661fd98d4087e42b72107fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf8be6e91d9f5de0c2c1169ee98e335') in 0.0136384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pics/Map Palette/Grass_56.asset
+  artifactKey: Guid(6312dd903a1c20c4d9f5c4a464a472a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_56.asset using Guid(6312dd903a1c20c4d9f5c4a464a472a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a92f6d2a9894c733e7c7552420cd7778') in 0.0125696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pics/Map Palette/Grass_61.asset
+  artifactKey: Guid(2d177b0efe2552b4a94952233b737990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_61.asset using Guid(2d177b0efe2552b4a94952233b737990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c65a64f2f1f11ebdcf7c9b48bedf77a') in 0.0268911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Pics/Map Palette/Grass_55.asset
+  artifactKey: Guid(ff080594921b7144d8d84d5414fcf8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_55.asset using Guid(ff080594921b7144d8d84d5414fcf8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c15d15aa832e2e4de2e84c6391c62dd') in 0.0238078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Pics/Map Palette/Grass_49.asset
+  artifactKey: Guid(d188b6378003aee45a61d5eb82496e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_49.asset using Guid(d188b6378003aee45a61d5eb82496e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc7e8612fc5f936c3b8e4d6dd0a6fd1a') in 0.0114237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Pics/Map Palette/Grass_68.asset
+  artifactKey: Guid(251e9803a84fe90498f42cea0d31b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_68.asset using Guid(251e9803a84fe90498f42cea0d31b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67a5b6b793977fc4ff7634925388a936') in 0.0291718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_52.asset
+  artifactKey: Guid(ae88371bdedb6854b9df5fef30306fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_52.asset using Guid(ae88371bdedb6854b9df5fef30306fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b306637103690cab948e43e9d87a811') in 0.0113796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_65.asset
+  artifactKey: Guid(c369aa97869650746be2ba45ad65a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_65.asset using Guid(c369aa97869650746be2ba45ad65a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53b817a93f668ad084cf84ca6a9029c6') in 0.0224484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Pics/Map Palette/Grass_66.asset
+  artifactKey: Guid(43e223d44c633d24f8d5b19597d59102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_66.asset using Guid(43e223d44c633d24f8d5b19597d59102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f13df9078ec0cc1060f4d9b97e33f7b7') in 0.0117548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Pics/Map Palette/Grass_69.asset
+  artifactKey: Guid(7f799311828affa469ebaf762cecec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_69.asset using Guid(7f799311828affa469ebaf762cecec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39e19de5251902aadcf48734f6c6c0c0') in 0.011826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.337359 seconds.
+  path: Assets/Pics/Map Palette/Grass_35.asset
+  artifactKey: Guid(8d8da31767ceb864a9668b8675220bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_35.asset using Guid(8d8da31767ceb864a9668b8675220bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c404e3c91309a96384fa0358f4a30bea') in 0.0120032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pics/Map Palette/Grass_42.asset
+  artifactKey: Guid(8de96184d2c4b4a43915163c5132d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_42.asset using Guid(8de96184d2c4b4a43915163c5132d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fdd18d954f53a5d254f0a86674d47ce') in 0.0251287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Pics/Map Palette/Grass_38.asset
+  artifactKey: Guid(da167c4149058bc44b6d62f100ef21e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_38.asset using Guid(da167c4149058bc44b6d62f100ef21e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e039757e46f7a5d2d0fa8adc1e6096') in 0.0114842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_26.asset
+  artifactKey: Guid(a57cec935b184f44c9a4030185418db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_26.asset using Guid(a57cec935b184f44c9a4030185418db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e146337da189302938f94dd775b69d5b') in 0.0107825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_27.asset
+  artifactKey: Guid(faf7511a0e026014280b0ce6d5816200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_27.asset using Guid(faf7511a0e026014280b0ce6d5816200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a23cb843f4677a4ba1061f43a63908f') in 0.009736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pics/Map Palette/Grass_24.asset
+  artifactKey: Guid(382bf965a384e7e4abdac297ab512c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_24.asset using Guid(382bf965a384e7e4abdac297ab512c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd8639e90ad1592fa55d9f32acaf7ed') in 0.0108983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_23.asset
+  artifactKey: Guid(2663aee30f8ac31448b3d6f3765cc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_23.asset using Guid(2663aee30f8ac31448b3d6f3765cc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d650dc9a9222e216eca77f443e8e533') in 0.0227153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pics/Map Palette/Grass_36.asset
+  artifactKey: Guid(c0cc4adf052e4224a8be883283b62f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_36.asset using Guid(c0cc4adf052e4224a8be883283b62f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef9ed0c1be01f4a49ac5948e5c4f8e3') in 0.0114014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_6.asset
+  artifactKey: Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_6.asset using Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '897adff81bf40a54f804a7cddbe8fa33') in 0.0256086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pics/Map Palette/Grass_9.asset
+  artifactKey: Guid(4d162ce0a6dd94a4099159bcd283d6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_9.asset using Guid(4d162ce0a6dd94a4099159bcd283d6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdc8b618f701620ef1fecd61ecc69e1d') in 0.01066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_18.asset
+  artifactKey: Guid(7c20bcf1ceeef8c4baeae1dc243a9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_18.asset using Guid(7c20bcf1ceeef8c4baeae1dc243a9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ca57e7c0554709e1f40dede65452ab0') in 0.0219931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Pics/Map Palette/Grass_19.asset
+  artifactKey: Guid(9dbe8c0a8d1d75d4ca23f475d087001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_19.asset using Guid(9dbe8c0a8d1d75d4ca23f475d087001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19dcde452f2f560d3e9666feaea0f0c9') in 0.0114018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pics/Map Palette/Grass_17.asset
+  artifactKey: Guid(99103eaf76c1c9342afef4fe51283e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_17.asset using Guid(99103eaf76c1c9342afef4fe51283e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d9877e584714f5fb1ee2c0de0b14e26') in 0.0110653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pics/Map Palette/Grass_2.asset
+  artifactKey: Guid(fdf76e2258cb3b94c987370cafd57a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_2.asset using Guid(fdf76e2258cb3b94c987370cafd57a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '545b1c26486ce41025338a936415c7cc') in 0.0206376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pics/Map Palette/Grass_0.asset
+  artifactKey: Guid(96d32d5da32e46f40933c9bb34d5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_0.asset using Guid(96d32d5da32e46f40933c9bb34d5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4c3a65a0052e6847afbd2598dc25c0b') in 0.0115431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Pics/Map Palette/Grass_16.asset
+  artifactKey: Guid(8baa637c6cf0d4f469fbd65521ce0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_16.asset using Guid(8baa637c6cf0d4f469fbd65521ce0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd11db1dcfaebb86af0e93b033e723542') in 0.0223293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Pics/Map Palette/Grass_31.asset
+  artifactKey: Guid(4f189d9305a1fd343afffeb3e6983225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_31.asset using Guid(4f189d9305a1fd343afffeb3e6983225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03dcee1f8b3a6bd55de6b24e9f982773') in 0.0197961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.671305 seconds.
+  path: Assets/Pics/Map Palette/Grass_1.asset
+  artifactKey: Guid(087b843c4a8d764449eb93801468c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_1.asset using Guid(087b843c4a8d764449eb93801468c3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25b11afa364cdb0373c90981cbc2a1d') in 0.0115935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005644 seconds.
+  path: Assets/Pics/Map Palette/Grass_3.asset
+  artifactKey: Guid(b300831b81db0814598695350eb58c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_3.asset using Guid(b300831b81db0814598695350eb58c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4071fa90e7b24f2322e2375fe7da4c06') in 0.0134675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Pics/Map Palette/Grass_6.asset
+  artifactKey: Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_6.asset using Guid(9668352a635e8e14ea838f013d4cd851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '255b42c501ebda3d466ee941bde18e68') in 0.0122324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pics/Map Palette/Grass_26.asset
+  artifactKey: Guid(a57cec935b184f44c9a4030185418db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_26.asset using Guid(a57cec935b184f44c9a4030185418db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a26dc27486bee506797a2f2a7806d9b') in 0.0105677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pics/Map Palette/Grass_27.asset
+  artifactKey: Guid(faf7511a0e026014280b0ce6d5816200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_27.asset using Guid(faf7511a0e026014280b0ce6d5816200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96c9308a5386f1c0a517bbad2fb3cc9f') in 0.0124132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pics/Map Palette/Grass_24.asset
+  artifactKey: Guid(382bf965a384e7e4abdac297ab512c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_24.asset using Guid(382bf965a384e7e4abdac297ab512c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049f4330e49ae2517748613a944ce3d6') in 0.0121465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pics/Map Palette/Grass_42.asset
+  artifactKey: Guid(8de96184d2c4b4a43915163c5132d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_42.asset using Guid(8de96184d2c4b4a43915163c5132d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5564878e1079d5f930197626a15bdbfd') in 0.0170199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_34.asset
+  artifactKey: Guid(c244f2c28bb292944b4239073a3d71d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_34.asset using Guid(c244f2c28bb292944b4239073a3d71d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7145a2b7354e8b0ebd7cb512ced5fe8f') in 0.0044133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pics/Map Palette/Grass_15.asset
+  artifactKey: Guid(e723b378da0fd6144a68e9138b3df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_15.asset using Guid(e723b378da0fd6144a68e9138b3df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e1ada824cad9c7d617c6b59334e986e') in 0.0117612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pics/Map Palette/Grass_13.asset
+  artifactKey: Guid(17ac321cf8c3907478fbfe57d87d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_13.asset using Guid(17ac321cf8c3907478fbfe57d87d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a6b23b530c8e0cb5d02bd89bfac2de') in 0.0118901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pics/Map Palette/Grass_19.asset
+  artifactKey: Guid(9dbe8c0a8d1d75d4ca23f475d087001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_19.asset using Guid(9dbe8c0a8d1d75d4ca23f475d087001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ee3f58d664a91e06c7761c76faae3bb') in 0.0116093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pics/Map Palette/Grass_17.asset
+  artifactKey: Guid(99103eaf76c1c9342afef4fe51283e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_17.asset using Guid(99103eaf76c1c9342afef4fe51283e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23cffcea5ba3780ea35034f010a23770') in 0.0119887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pics/Map Palette/Grass_14.asset
+  artifactKey: Guid(37284e491070ab24995d81d16dddcc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_14.asset using Guid(37284e491070ab24995d81d16dddcc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed49f07a4f6c185b6900aefa210fed5') in 0.0122252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Pics/Map Palette/Grass_41.asset
+  artifactKey: Guid(43c8e61610a52ff429facbfb104dd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_41.asset using Guid(43c8e61610a52ff429facbfb104dd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd30301fa3073febc2253fe0eb34bc80') in 0.0058873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pics/Map Palette/Grass_44.asset
+  artifactKey: Guid(7d8349571559e4b44bb734e8eac4b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_44.asset using Guid(7d8349571559e4b44bb734e8eac4b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55e224c16accf74921c870c0a6593dc8') in 0.0118137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pics/Map Palette/Grass_23.asset
+  artifactKey: Guid(2663aee30f8ac31448b3d6f3765cc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_23.asset using Guid(2663aee30f8ac31448b3d6f3765cc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2ae797b2c8b0d2865763deea9dff228') in 0.0107738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Pics/Map Palette/Grass_36.asset
+  artifactKey: Guid(c0cc4adf052e4224a8be883283b62f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_36.asset using Guid(c0cc4adf052e4224a8be883283b62f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb213d0ad771dedefe29d0952769babb') in 0.0045903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pics/Map Palette/Grass_10.asset
+  artifactKey: Guid(2e40a81df7ec2364c819f9deef3864df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_10.asset using Guid(2e40a81df7ec2364c819f9deef3864df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea94027844c9d105bc0770c3a29d896c') in 0.0107688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pics/Map Palette/Grass_33.asset
+  artifactKey: Guid(422d728e73ac4ce4c9e479a63550f317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_33.asset using Guid(422d728e73ac4ce4c9e479a63550f317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28acf6bdd34ba55f417f2f233b537f3b') in 0.0048967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Pics/Map Palette/Grass_35.asset
+  artifactKey: Guid(8d8da31767ceb864a9668b8675220bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_35.asset using Guid(8d8da31767ceb864a9668b8675220bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de36190b071979cbec819e19a574dd5e') in 0.0045537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Pics/Map Palette/Grass_11.asset
+  artifactKey: Guid(d45034ed6196c4e45bd5e8f5f77ef652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_11.asset using Guid(d45034ed6196c4e45bd5e8f5f77ef652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '487cbe8d4b1c9a4dd33480c399c3375d') in 0.0113232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pics/Map Palette/Grass_28.asset
+  artifactKey: Guid(88508d0bf03a06545abe7ddbb6aa1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_28.asset using Guid(88508d0bf03a06545abe7ddbb6aa1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58c4ed624057f5bdd56c375c8e1c6d7d') in 0.0098069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Pics/Map Palette/Grass_43.asset
+  artifactKey: Guid(92c1cdb0c2955c046bb365deadefe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_43.asset using Guid(92c1cdb0c2955c046bb365deadefe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c867583f27fb6869e8a7097e6f0f8ab4') in 0.0100439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Pics/Map Palette/Grass_40.asset
+  artifactKey: Guid(691f69bb6dafbeb4ba62da8625c9daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_40.asset using Guid(691f69bb6dafbeb4ba62da8625c9daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd193ca1f744e298edbf2fdd2ee6405d1') in 0.007513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.018802 seconds.
+  path: Assets/Pics/Map Palette/Grass_46.asset
+  artifactKey: Guid(9b2ea75f35f021c4495cef0e93b60421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_46.asset using Guid(9b2ea75f35f021c4495cef0e93b60421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56f91e35a0f24dc5b407317e436a8699') in 0.0116468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pics/Map Palette/Grass_51.asset
+  artifactKey: Guid(2f9234e743bd36e4ab99782c1d64321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_51.asset using Guid(2f9234e743bd36e4ab99782c1d64321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd47265ac732f650c8b5c243191f0b49') in 0.0125251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pics/Map Palette/Grass_50.asset
+  artifactKey: Guid(e8164a0141e6b8d4d8b9849a47040657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_50.asset using Guid(e8164a0141e6b8d4d8b9849a47040657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a513aa582af98a36c184af7f4098eb72') in 0.0139248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pics/Map Palette/Grass_63.asset
+  artifactKey: Guid(a7f5325d6b032e34c9e63ba3d5c45798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_63.asset using Guid(a7f5325d6b032e34c9e63ba3d5c45798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9846350e0d9bfc55099b9c97e5999ad0') in 0.0118235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Pics/Map Palette/Grass_57.asset
+  artifactKey: Guid(99fba75f100da3c4eb764df5e2cb67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_57.asset using Guid(99fba75f100da3c4eb764df5e2cb67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c53dca6f2e9462a2158deb0f32bae959') in 0.0119171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pics/Map Palette/Grass_62.asset
+  artifactKey: Guid(23299157b3bada947aa27a84fcd550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_62.asset using Guid(23299157b3bada947aa27a84fcd550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec6be94fe86aea45b23f7e0e505ed913') in 0.0095979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pics/Map Palette/Grass_56.asset
+  artifactKey: Guid(6312dd903a1c20c4d9f5c4a464a472a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_56.asset using Guid(6312dd903a1c20c4d9f5c4a464a472a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e68278e2e20e2d0572b505da997a19dd') in 0.0108336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Pics/Map Palette/Grass_61.asset
+  artifactKey: Guid(2d177b0efe2552b4a94952233b737990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_61.asset using Guid(2d177b0efe2552b4a94952233b737990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee6ae2551be3288c4340da777b5eece1') in 0.0111111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pics/Map Palette/Grass_64.asset
+  artifactKey: Guid(38054555278640543bdbe7e0acce0197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_64.asset using Guid(38054555278640543bdbe7e0acce0197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed891f344a486008d89f4850a2d3e225') in 0.0109131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pics/Map Palette/Grass_49.asset
+  artifactKey: Guid(d188b6378003aee45a61d5eb82496e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_49.asset using Guid(d188b6378003aee45a61d5eb82496e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22c30d60b75460b1d968b08326a31cd2') in 0.0120466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pics/Map Palette/Grass_68.asset
+  artifactKey: Guid(251e9803a84fe90498f42cea0d31b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_68.asset using Guid(251e9803a84fe90498f42cea0d31b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0714b3f1ca547b6cbd92f12b0a544ee') in 0.0102533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pics/Map Palette/Grass_52.asset
+  artifactKey: Guid(ae88371bdedb6854b9df5fef30306fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_52.asset using Guid(ae88371bdedb6854b9df5fef30306fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc59733a9c27d7142754b8e09e08d437') in 0.0100458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pics/Map Palette/Grass_65.asset
+  artifactKey: Guid(c369aa97869650746be2ba45ad65a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_65.asset using Guid(c369aa97869650746be2ba45ad65a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a4c475c204a505835b09c40d703a29') in 0.0111156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Pics/Map Palette/Grass_66.asset
+  artifactKey: Guid(43e223d44c633d24f8d5b19597d59102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_66.asset using Guid(43e223d44c633d24f8d5b19597d59102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf34c753f22e63e153aa01ecdaa05185') in 0.0204692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pics/Map Palette/Grass_69.asset
+  artifactKey: Guid(7f799311828affa469ebaf762cecec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pics/Map Palette/Grass_69.asset using Guid(7f799311828affa469ebaf762cecec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b27c88c11b4f88607d02bdf02326ef8e') in 0.0100302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
