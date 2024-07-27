@@ -28,8 +28,6 @@ public class Manager : Loader<Manager>
     [SerializeField]
     GameObject[] enemies;
     [SerializeField]
-    int maxEnemiesOnScreen;
-    [SerializeField]
     int totalEnemies = 5;
     [SerializeField]
     int enemiesPerSpawn;
@@ -106,7 +104,7 @@ public class Manager : Loader<Manager>
         {
             for (int i = 0; i < enemiesPerSpawn; i++)
             {
-                if (EnemyList.Count < maxEnemiesOnScreen)
+                if (EnemyList.Count < totalEnemies)
                 {
                     GameObject newEnemy = Instantiate(enemies[0]) as GameObject;
                     newEnemy.transform.position = spawnPoint.transform.position;
@@ -185,6 +183,8 @@ public class Manager : Loader<Manager>
                 totalEnemies = 5;
                 totalEscaped = 0;
                 TotalMoney = 10;
+                TowerManager.Instance.DestroyAllTowers();
+                TowerManager.Instance.RenameTagBuildSite();
                 totalMoneyLabel.text = TotalMoney.ToString();
                 totalEscapedLabel.text = "Escaped " + TotalEscaped + "/ 10";
 
@@ -221,7 +221,7 @@ public class Manager : Loader<Manager>
         playBtn.gameObject.SetActive(true);
     }
 
-    private void HandleEscape()
+    public void HandleEscape()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {

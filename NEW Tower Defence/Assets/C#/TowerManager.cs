@@ -7,6 +7,9 @@ public class TowerManager : MonoBehaviour
 {
     public TowerBTN towerBTNPressed { get; set; }
     SpriteRenderer spriteRenderer;
+    private List<TowerControl> TowerList = new List<TowerControl>();
+    private List<Collider2D> BuildList = new List<Collider2D>();
+    private Collider2D buildTile;
 
     private static TowerManager instance;
     public static TowerManager Instance
@@ -15,25 +18,35 @@ public class TowerManager : MonoBehaviour
         {
             if (instance == null)
             {
-                instance = FindObjectOfType<TowerManager>();
-                if (instance == null)
-                {
-                    GameObject obj = new GameObject("TowerManager");
-                    instance = obj.AddComponent<TowerManager>();
-                }
+                Debug.LogError("TowerManager instance not found!");
             }
             return instance;
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer == null)
         {
             Debug.LogError("SpriteRenderer is missing on TowerManager object.");
         }
+    }
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        buildTile = GetComponent<Collider2D>();
+        spriteRenderer.enabled = false;
     }
 
     // Update is called once per frame
@@ -41,12 +54,15 @@ public class TowerManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            UnityEngine.Vector2 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(mousePoint, UnityEngine.Vector2.zero);
+            Vector2 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(mousePoint, Vector2.zero);
 
             if (hit.collider != null && hit.collider.CompareTag("TowerSide"))
             {
-                hit.collider.tag = "TowerSideFull";
+                buildTile = hit.collider;
+                buildTile.tag = "TowerSideFull";
+                RegisterBuildSite(buildTile);
+
                 PlaceTower(hit);
             }
         }
@@ -57,12 +73,39 @@ public class TowerManager : MonoBehaviour
         }
     }
 
+    public void RegisterBuildSite(Collider2D buildTag)
+    {
+        BuildList.Add(buildTag);
+    }
+
+    private void RegisterTower(TowerControl tower)
+    {
+        TowerList.Add(tower);
+    }
+    public void RenameTagBuildSite()
+    {
+        foreach (Collider2D buildTag in BuildList)
+        {
+            buildTag.tag = "TowerSide";
+        }
+        BuildList.Clear();
+    }
+    public void DestroyAllTowers()
+    {
+        foreach (TowerControl tower in TowerList)
+        {
+            Destroy(tower.gameObject);
+        }
+        TowerList.Clear();
+    }
     public void PlaceTower(RaycastHit2D hit)
     {
         if (!EventSystem.current.IsPointerOverGameObject() && towerBTNPressed != null)
         {
-            GameObject newTower = Instantiate(towerBTNPressed.TowerObject);
+            TowerControl newTower = Instantiate(towerBTNPressed.TowerObject);
             newTower.transform.position = hit.transform.position;
+            BuyTower(towerBTNPressed.TowerPrice);
+            RegisterTower(newTower);
             DisabledDrag();
 
             SpriteRenderer hitSpriteRenderer = hit.collider.GetComponent<SpriteRenderer>();
@@ -72,14 +115,20 @@ public class TowerManager : MonoBehaviour
             }
         }
     }
+    public void BuyTower(int price)
+    {
+        Manager.Instance.substractMoney(price);
+    }
 
     public void SelectedTower(TowerBTN towerSelected)
     {
-        towerBTNPressed = towerSelected;
-        if (towerBTNPressed != null)
+        if (towerSelected.TowerPrice <= Manager.Instance.TotalMoney)
         {
-            EnabledDrag(towerBTNPressed.DragSprite);
-            Debug.Log("Pressed" + towerBTNPressed.gameObject);
+            towerBTNPressed = towerSelected;
+            if (towerBTNPressed != null)
+            {
+                EnabledDrag(towerBTNPressed.DragSprite);
+            }
         }
     }
 
@@ -87,8 +136,8 @@ public class TowerManager : MonoBehaviour
     {
         if (spriteRenderer != null)
         {
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            transform.position = new UnityEngine.Vector2(transform.position.x, transform.position.y);
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = new Vector2(mousePosition.x, mousePosition.y);
         }
     }
 

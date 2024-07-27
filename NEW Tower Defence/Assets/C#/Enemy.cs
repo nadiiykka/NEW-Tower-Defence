@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
         if (wayPoints != null && isDead == false)
         {
             navigationTime += Time.deltaTime;
-            if(navigationTime > navigation)
+            if (navigationTime > navigation)
             {
                 if (target < wayPoints.Length)
                 {
@@ -56,11 +56,11 @@ public class Enemy : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "MovePoint")
+        if (collision.tag == "MovePoint")
         {
             target += 1;
         }
-        else if(collision.tag == "Finish")
+        else if (collision.tag == "Finish")
         {
             Manager.Instance.RoundEscaped += 1;
             Manager.Instance.TotalEscaped += 1;
@@ -70,10 +70,14 @@ public class Enemy : MonoBehaviour
         else if (collision.tag == "Projectile")
         {
             Projectile newP = collision.gameObject.GetComponent<Projectile>();
-            EnemyHit(newP.AttackDamage);
-            Destroy(collision.gameObject);
+            if (newP != null)
+            {
+                EnemyHit(newP.AttackDamage);
+                Destroy(collision.gameObject);
+            }
         }
     }
+
 
     public void EnemyHit(int hitPoints)
     {
