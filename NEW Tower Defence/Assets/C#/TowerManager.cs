@@ -24,6 +24,8 @@ public class TowerManager : MonoBehaviour
         }
     }
 
+    private List<GameObject> buildSites = new List<GameObject>();
+
     void Awake()
     {
         if (instance == null)
@@ -42,6 +44,7 @@ public class TowerManager : MonoBehaviour
             Debug.LogError("SpriteRenderer is missing on TowerManager object.");
         }
     }
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -62,7 +65,7 @@ public class TowerManager : MonoBehaviour
                 buildTile = hit.collider;
                 buildTile.tag = "TowerSideFull";
                 RegisterBuildSite(buildTile);
-
+                buildSites.Add(hit.collider.gameObject);
                 PlaceTower(hit);
             }
         }
@@ -82,14 +85,23 @@ public class TowerManager : MonoBehaviour
     {
         TowerList.Add(tower);
     }
+
     public void RenameTagBuildSite()
     {
         foreach (Collider2D buildTag in BuildList)
         {
             buildTag.tag = "TowerSide";
+            
+            // Включаємо SpriteRenderer
+            SpriteRenderer spriteRenderer = buildTag.GetComponent<SpriteRenderer>();
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.enabled = true;
+            }
         }
         BuildList.Clear();
     }
+
     public void DestroyAllTowers()
     {
         foreach (TowerControl tower in TowerList)
@@ -98,6 +110,7 @@ public class TowerManager : MonoBehaviour
         }
         TowerList.Clear();
     }
+
     public void PlaceTower(RaycastHit2D hit)
     {
         if (!EventSystem.current.IsPointerOverGameObject() && towerBTNPressed != null)
@@ -115,6 +128,7 @@ public class TowerManager : MonoBehaviour
             }
         }
     }
+
     public void BuyTower(int price)
     {
         Manager.Instance.substractMoney(price);
