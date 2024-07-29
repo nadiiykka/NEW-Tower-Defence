@@ -1,0 +1,19 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="DialogueManager">
+			<method name="DisplayNextDialogueLine"/>
+		</type>
+		<type fullname="Manager">
+			<method name="PlayButtonPressed"/>
+		</type>
+		<type fullname="MenuManager">
+			<method name="QuitGame"/>
+			<method name="StartGame"/>
+		</type>
+		<type fullname="TowerManager">
+			<method name="SelectedTower"/>
+			<method name="SelectedTower"/>
+			<method name="SelectedTower"/>
+		</type>
+	</assembly>
+</linker>

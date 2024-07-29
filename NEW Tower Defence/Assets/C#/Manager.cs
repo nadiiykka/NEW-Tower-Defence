@@ -32,13 +32,13 @@ public class Manager : Loader<Manager>
     [SerializeField]
     int enemiesPerSpawn;
 
-    int waveNumber = 0;
+    public int waveNumber = 0;
     int totalMoney = 10;
     int totalEscaped = 0;
     int roundEscaped = 0;
     int totalKilled;
     int whichEnemiesToSpawn = 0;
-    gameStatus currentState = gameStatus.play;
+    public gameStatus currentState = gameStatus.play;
 
     public List<Enemy> EnemyList = new List<Enemy>();
 
