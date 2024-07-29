@@ -115,10 +115,12 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.3.1
     - 2.4.3
+    - 2.4.4
     compatible:
     - 2.2.0
     - 2.3.1
     - 2.4.3
+    - 2.4.4
     recommended: 2.2.0
     deprecated: []
   dependencies: []
@@ -601,6 +603,7 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -612,6 +615,7 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -5058,6 +5062,7 @@ m_ResolvedPackages:
     - 1.8.14
     - 1.8.15
     - 1.8.16
+    - 1.8.17
     compatible:
     - 1.8.10
     - 1.8.11
@@ -5066,7 +5071,8 @@ m_ResolvedPackages:
     - 1.8.14
     - 1.8.15
     - 1.8.16
-    recommended: 1.8.16
+    - 1.8.17
+    recommended: 1.8.17
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
