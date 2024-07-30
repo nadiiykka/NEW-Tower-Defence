@@ -8,6 +8,7 @@
 		</type>
 		<type fullname="MenuManager">
 			<method name="QuitGame"/>
+			<method name="QuitGame"/>
 			<method name="StartGame"/>
 		</type>
 		<type fullname="TowerManager">

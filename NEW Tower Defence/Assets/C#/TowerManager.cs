@@ -52,7 +52,6 @@ public class TowerManager : MonoBehaviour
         spriteRenderer.enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -115,16 +114,23 @@ public class TowerManager : MonoBehaviour
     {
         if (!EventSystem.current.IsPointerOverGameObject() && towerBTNPressed != null)
         {
-            TowerControl newTower = Instantiate(towerBTNPressed.TowerObject);
-            newTower.transform.position = hit.transform.position;
-            BuyTower(towerBTNPressed.TowerPrice);
-            RegisterTower(newTower);
-            DisabledDrag();
-
-            SpriteRenderer hitSpriteRenderer = hit.collider.GetComponent<SpriteRenderer>();
-            if (hitSpriteRenderer != null)
+            if (Manager.Instance.TotalMoney >= towerBTNPressed.TowerPrice)
             {
-                hitSpriteRenderer.enabled = false;
+                TowerControl newTower = Instantiate(towerBTNPressed.TowerObject);
+                newTower.transform.position = hit.transform.position;
+                BuyTower(towerBTNPressed.TowerPrice);
+                RegisterTower(newTower);
+                DisabledDrag();
+
+                SpriteRenderer hitSpriteRenderer = hit.collider.GetComponent<SpriteRenderer>();
+                if (hitSpriteRenderer != null)
+                {
+                    hitSpriteRenderer.enabled = false;
+                }
+            }
+            else
+            {
+                Debug.Log("Not enough money to place the tower!");
             }
         }
     }

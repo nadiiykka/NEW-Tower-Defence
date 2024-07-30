@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI characterName;
     public TextMeshProUGUI dialogueArea;
     public GameObject dialogueBackground; // Новий фон для тексту
-
+    public GameObject continueButton;
     private Queue<DialogueLine> lines;
 
     public bool isDialogueActive = false;
@@ -112,6 +112,7 @@ public class DialogueManager : MonoBehaviour
         characterName.gameObject.SetActive(true);
         dialogueArea.gameObject.SetActive(true);
         dialogueBackground.gameObject.SetActive(true); // Показати фон для тексту
+        continueButton.gameObject.SetActive(true);
     }
 
     public void HideDialogueUI()
@@ -120,5 +121,6 @@ public class DialogueManager : MonoBehaviour
         characterName.gameObject.SetActive(false);
         dialogueArea.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false); // Приховати фон для тексту
+        continueButton.gameObject.SetActive(false);
     }
 }

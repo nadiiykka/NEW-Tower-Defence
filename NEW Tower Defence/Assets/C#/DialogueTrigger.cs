@@ -26,9 +26,11 @@ public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue initialDialogue;  // Перший діалог
     public Dialogue secondaryDialogue; // Діалог після waveNumber == 1
+    public Dialogue thirdDialogue;
 
     private bool hasTriggeredInitialDialogue = false;
     private bool hasTriggeredSecondaryDialogue = false;
+    private bool hasTriggeredThirdDialogue = false;
 
     void Start()
     {

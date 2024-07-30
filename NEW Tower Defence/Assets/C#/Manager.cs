@@ -32,6 +32,9 @@ public class Manager : Loader<Manager>
     [SerializeField]
     int enemiesPerSpawn;
 
+    [SerializeField]
+    GameObject quitButton;
+
     public int waveNumber = 0;
     int totalMoney = 10;
     int totalEscaped = 0;
@@ -92,6 +95,7 @@ public class Manager : Loader<Manager>
     void Start()
     {
         playBtn.gameObject.SetActive(false);
+        quitButton.gameObject.SetActive(false);
         ShowMenu();
     }
     private void Update()
@@ -179,10 +183,12 @@ public class Manager : Loader<Manager>
                 waveNumber += 1;
                 totalEnemies += waveNumber;
                 break;
+
             default:
                 totalEnemies = 5;
                 totalEscaped = 0;
                 TotalMoney = 10;
+                quitButton.gameObject.SetActive(false);
                 TowerManager.Instance.DestroyAllTowers();
                 TowerManager.Instance.RenameTagBuildSite();
                 totalMoneyLabel.text = TotalMoney.ToString();
@@ -203,6 +209,7 @@ public class Manager : Loader<Manager>
         {
             case gameStatus.gameover:
                 playBtnLabel.text = "Play again!";
+                quitButton.gameObject.SetActive(true);
 
                 break;
             case gameStatus.next:
