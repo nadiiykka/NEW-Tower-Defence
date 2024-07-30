@@ -51,7 +51,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -69,7 +70,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -87,7 +89,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -119,7 +122,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -137,7 +141,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -283,7 +288,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -377,7 +383,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -398,7 +405,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -419,7 +427,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -439,7 +448,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -450,7 +460,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -461,7 +472,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -490,7 +502,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -500,7 +513,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -525,7 +539,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -536,7 +551,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -565,7 +581,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -576,7 +593,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -587,7 +605,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -607,7 +626,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -634,7 +654,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -644,7 +665,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -662,7 +684,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -691,7 +714,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -701,7 +725,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -711,7 +736,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -722,7 +748,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -733,7 +760,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -744,7 +772,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {
@@ -780,7 +809,8 @@
             "usedInScenes": [
                 "Assets/Scenes/CutScene.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/MainMenu.unity"
+                "Assets/Scenes/MainMenu.unity",
+                "Assets/Scenes/WinScene.unity"
             ]
         },
         {

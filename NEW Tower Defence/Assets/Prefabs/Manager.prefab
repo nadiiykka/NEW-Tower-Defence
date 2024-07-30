@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99cc28aa2b4a7ab49b0643b6c3630f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalWaves: 3
+  totalWaves: 2
   totalMoneyLabel: {fileID: 0}
   currentWave: {fileID: 0}
   totalEscapedLabel: {fileID: 0}
@@ -53,7 +53,10 @@ MonoBehaviour:
   spawnPoint: {fileID: 6637751288217705030, guid: 92aa29c256c84e341a89f34bc541a713, type: 3}
   enemies:
   - {fileID: 5304649767567757044, guid: 5d78d33165452094f8676a4fccdd7761, type: 3}
-  maxEnemiesOnScreen: 10
   totalEnemies: 5
   enemiesPerSpawn: 1
+  quitButton: {fileID: 0}
+  finishButton: {fileID: 0}
+  waveNumber: 0
+  currentState: 1
   EnemyList: []

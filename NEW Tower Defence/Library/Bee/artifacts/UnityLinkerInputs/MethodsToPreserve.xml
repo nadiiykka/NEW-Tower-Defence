@@ -9,7 +9,10 @@
 		<type fullname="MenuManager">
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
+			<method name="QuitGame"/>
 			<method name="StartGame"/>
+			<method name="StartGame"/>
+			<method name="WinScene"/>
 		</type>
 		<type fullname="TowerManager">
 			<method name="SelectedTower"/>

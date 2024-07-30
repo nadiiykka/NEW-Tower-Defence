@@ -34,6 +34,8 @@ public class Manager : Loader<Manager>
 
     [SerializeField]
     GameObject quitButton;
+    [SerializeField]
+    GameObject finishButton;
 
     public int waveNumber = 0;
     int totalMoney = 10;
@@ -96,6 +98,7 @@ public class Manager : Loader<Manager>
     {
         playBtn.gameObject.SetActive(false);
         quitButton.gameObject.SetActive(false);
+        finishButton.gameObject.SetActive(false);
         ShowMenu();
     }
     private void Update()
@@ -189,6 +192,7 @@ public class Manager : Loader<Manager>
                 totalEscaped = 0;
                 TotalMoney = 10;
                 quitButton.gameObject.SetActive(false);
+                finishButton.gameObject.SetActive(false);
                 TowerManager.Instance.DestroyAllTowers();
                 TowerManager.Instance.RenameTagBuildSite();
                 totalMoneyLabel.text = TotalMoney.ToString();
@@ -210,6 +214,7 @@ public class Manager : Loader<Manager>
             case gameStatus.gameover:
                 playBtnLabel.text = "Play again!";
                 quitButton.gameObject.SetActive(true);
+                finishButton.gameObject.SetActive(false);
 
                 break;
             case gameStatus.next:
@@ -218,10 +223,12 @@ public class Manager : Loader<Manager>
                 break;
             case gameStatus.play:
                 playBtnLabel.text = "Play game";
+                finishButton.gameObject.SetActive(false);
 
                 break;
             case gameStatus.win:
                 playBtnLabel.text = "Play game";
+                finishButton.gameObject.SetActive(true);
 
                 break;
         }

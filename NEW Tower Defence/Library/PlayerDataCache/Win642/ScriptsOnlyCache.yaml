@@ -124,11 +124,20 @@ ScriptsOnlyBuild:
     fullTypeName: TowerManager
     methodName: SelectedTower
   - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: WinScene
+  - assembly: Assembly-CSharp
     fullTypeName: Manager
     methodName: PlayButtonPressed
   - assembly: Assembly-CSharp
     fullTypeName: DialogueManager
     methodName: DisplayNextDialogueLine
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: StartGame
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
     methodName: QuitGame
@@ -352,19 +361,70 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/WinScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26422}
+    - Class: 114
+      Script: {instanceID: 26634}
+    - Class: 114
+      Script: {instanceID: 26934}
+    - Class: 114
+      Script: {instanceID: 28306}
+    - Class: 114
+      Script: {instanceID: 29398}
+    - Class: 114
+      Script: {instanceID: 32138}
+    - Class: 114
+      Script: {instanceID: 33186}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 8ba7194262bfd20cf1aeac2033c47f6b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Manager
   - hash:
       serializedVersion: 2
       Hash: 7b0f31535eb9b3bdda4600c55ed143d9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DialogueTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: aa2351c06104a5cc0738567d21ea4cb3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Manager
   - hash:
       serializedVersion: 2
       Hash: 9ebb206587356b4f57cd7f4108f0f87f
@@ -1588,4 +1648,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/CutScene.unity
   - Assets/Scenes/Game.unity
+  - Assets/Scenes/WinScene.unity
   playerPath: C:/Users/admin/Documents/GitHub/NEW-Tower-Defence/BUILD/NEW Tower Defence.exe
